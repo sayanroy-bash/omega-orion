@@ -1,4 +1,23 @@
 import { useState,useEffect } from "react";
+import a from "./assets/Isolation_Mode.png";
+import b from "./assets/Vector.png";
+import c from "./assets/Frame427322189.png";
+import d from "./assets/message-question.png";
+import e from "./assets/1_17243468979511.png";
+import f from "./assets/3_17243468916241.png";
+import g from "./assets/2_17243468949601.png";
+import h from "./assets/7_17243468464901.png";
+import i from "./assets/5_17243468846451.png";
+import j from "./assets/4_17243468885751.png";
+import k from "./assets/6_17243468498321.png";
+import l from "./assets/423_17243468431051.png";
+import m from "./assets/Frame1171275630.png";
+import n from "./assets/Isolation_Mode.png";
+import o from "./assets/Buttons.png";
+import p from "./assets/Buttons1.png";
+import q from "./assets/Buttons2.png";
+import r from "./assets/Buttons3.png";
+import s from "./assets/uiwiki.svg";
 
 function App() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -28,32 +47,32 @@ function App() {
         <div id="navbar">
             <div className="left">
                 <div>
-                    <img src="./src/assets/Isolation_Mode.png" alt="" />
+                    <img src={a} alt="" />
                 </div>
                 <h3>Explore</h3>
                 <h3>FAQ`s</h3>
                 <h3>Pricing</h3>
             </div>
             <div className="right" style={{display:"flex",alignItems:"center",gap:"10px",padding:"10px"}}>
-                <img src="./src/assets/Vector.png" alt="" style={{display:"block"}}/>
-                <img src="./src/assets/Frame 427322189.png" alt="" style={{display:"block"}}/>
+                <img src={b} alt="" style={{display:"block"}}/>
+                <img src={c} alt="" style={{display:"block"}}/>
             </div>
         </div>
         <div className="header">
             <h1>Pixel Bloom:AI Website Agency</h1>
-            <button style={{display:"flex",justifyContent:"center",alignItems:"center"}}><img src="./src/assets/message-question.png" alt="" style={{display:"block"}}/><p style={{display:"block"}}>Give feedback</p></button>
+            <button style={{display:"flex",justifyContent:"center",alignItems:"center"}}><img src={d} alt="" style={{display:"block"}}/><p style={{display:"block"}}>Give feedback</p></button>
             <button style={{display:"block"}}>Add to Cart $20</button>
         </div>
       </nav>
       <main>
-        <img src="./src/assets/1_1724346897951 1.png" alt="" className="card" />
-        <img src="./src/assets/3_1724346891624 1.png" alt="" className="card" />
-        <img src="./src/assets/2_1724346894960 1.png" alt="" className="card" />
-        <img src="./src/assets/7_1724346846490 1.png" alt="" className="card" />
-        <img src="./src/assets/5_1724346884645 1.png" alt="" className="card" />
-        <img src="./src/assets/4_1724346888575 1.png" alt="" className="card" />
-        <img src="./src/assets/6_1724346849832 1.png" alt="" className="card" />
-        <img src="./src/assets/423_1724346843105 1.png" alt="" className="card" />
+        <img src={e} alt="" className="card" />
+        <img src={f} alt="" className="card" />
+        <img src={g} alt="" className="card" />
+        <img src={h} alt="" className="card" />
+        <img src={i} alt="" className="card" />
+        <img src={j} alt="" className="card" />
+        <img src={k} alt="" className="card" />
+        <img src={l} alt="" className="card" />
       </main>
       <div id="middle-section">
         <div className="description">
@@ -90,7 +109,7 @@ function App() {
       </div>
       <div id="comment-card">
         <h1>Comments</h1>
-        <img src="./src/assets/Frame 1171275630.png" alt="" />
+        <img src={m} alt="" />
         <div style={{display: "inline-block"}}>
           <h3>Kristen Robsen</h3>
           <p>Gave feedback on 17th Sept 2024</p>
@@ -110,7 +129,7 @@ function App() {
             <div className="left">
                 <div>
                     <div>
-                        <img src="./src/assets/Isolation_Mode.png" />
+                        <img src={n} />
                     </div>
                     <div>
                         <h3>Explore</h3>
@@ -133,11 +152,11 @@ function App() {
                 </div>
                 <h2>Connect with us</h2>
                 <div>
-                    <img src="./src/assets/Buttons.png" alt=""/><img src="./src/assets/Buttons(1).png" alt=""/><img src="./src/assets/Buttons(2).png" alt=""/><img src="./src/assets/Buttons(3).png" alt=""/>
+                    <img src={o} alt=""/><img src={p} alt=""/><img src={q} alt=""/><img src={r} alt=""/>
                 </div>
             </div>
         </div>
-        <img src="./src/assets/uiwiki.svg" style={{paddingLeft:"40px"}}/>
+        <img src={s} style={{paddingLeft:"40px"}}/>
       </footer>
     </>
   )
